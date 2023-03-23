@@ -1,9 +1,13 @@
+import HeroSection from "./features/HeroSection";
 import Navbar from "./features/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />      
+      <div className="bg-[url('./static/wallpaper.jpg')] bg-left h-screen">
+        <Navbar />   
+        <HeroSection />   
+      </div>
     </div>
   );
 }
