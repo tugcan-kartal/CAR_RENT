@@ -3,12 +3,13 @@ import {AiFillCar} from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between p-[2vw]'>
+    <div className='flex md:flex-row flex-col md:justify-between justify-center items-center p-[2vw]'>
+
         <div className='text-4xl'>
             <AiFillCar />
         </div>
 
-        <div className='flex gap-x-[2vw] font-semibold'>
+        <div className='flex md:gap-x-[2vw] font-semibold md:visible invisible'>
             <div className='text-black hover:text-gray-400 cursor-pointer'>Home</div>
             <div className='text-black hover:text-gray-400 cursor-pointer'>About</div>
             <div className='text-black hover:text-gray-400 cursor-pointer'>Vehicle Models</div>
