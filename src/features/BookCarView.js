@@ -1,19 +1,23 @@
-import React from 'react'
+import React from 'react';
+import {BsCarFrontFill} from "react-icons/bs";
+import {HiLocationMarker} from "react-icons/hi";
+import {GrLocationPin} from "react-icons/gr";
+import {MdDateRange} from "react-icons/md";
 
 const BookCarView = () => {
   return (
-    <div>
-        <div>Book a car</div>
+    <div className="flex flex-col justify-center items-center bg-gray-50 pt-[10vh] pb-[10vh]">
 
-        <div>
+        <div className="bg-[url('./static/wallpaper2.jpg')] bg-top rounded-2xl px-[5vw] py-[3vh]">
 
+            <div className='text-2xl font-bold mb-[2vh]'>Book a car</div>
 
-            <div className='flex'>
+            <div className='flex justify-center text-md gap-x-[4vw] mb-[5vh]'>
 
                 <div>
-                    <div>Select Your Car Type</div>
+                    <div className='font-semibold flex items-center gap-x-[1vw] mb-[1vh]'> <BsCarFrontFill /> Select Your Car Type *</div>
                     <div>
-                        <select>
+                        <select className='text-gray-500 px-[2vw] py-[1vh] border-2 border-gray-200 text-left'>
                             <option>Select your car type</option>
                             <option>Audi A1 S-Line</option>
                             <option>VW Golf 6</option>
@@ -26,9 +30,9 @@ const BookCarView = () => {
                 </div>
 
                 <div>
-                    <div>Pick-up</div>
+                    <div className='font-semibold flex items-center gap-x-[1vw] mb-[1vh]'> <HiLocationMarker /> Pick-up</div>
                     <div>
-                        <select>
+                        <select className='text-gray-500 px-[2vw] py-[1vh] border-2 border-gray-200 text-left'>
                             <option>Select pick up location</option>
                             <option>Audi A1 S-Line</option>
                             <option>VW Golf 6</option>
@@ -41,9 +45,9 @@ const BookCarView = () => {
                 </div>
 
                 <div>
-                    <div>Drop-of</div>
+                    <div className='font-semibold flex items-center gap-x-[1vw] mb-[1vh]'><GrLocationPin /> Drop-of</div>
                     <div>
-                        <select>
+                        <select className='text-gray-500 px-[2vw] py-[1vh] border-2 border-gray-200 text-left'>
                             <option>Select drop off location</option>
                             <option>Audi A1 S-Line</option>
                             <option>VW Golf 6</option>
@@ -57,30 +61,31 @@ const BookCarView = () => {
 
             </div>
 
-            <div className='flex'>
+            <div className='flex justify-center items-center text-md gap-x-[4vw] mb-[5vh]'>
 
                 <div>
-                    <div>Pick-up</div>
+                    <div className='font-semibold flex items-center gap-x-[1vw] mb-[1vh]'><MdDateRange /> Pick-up</div>
                     <div>
-                        <input type="date"/>
+                        <input className='text-gray-500 px-[2vw] py-[1vh] border-2 border-gray-200 text-left' type="date"/>
                     </div>
                 </div>
 
                 <div>
-                    <div>Drop-of</div>
+                    <div className='font-semibold flex items-center gap-x-[1vw] mb-[1vh]'><MdDateRange />Drop-of</div>
                     <div>
-                        <input type="date"/>
+                        <input className='text-gray-500 px-[2vw] py-[1vh] border-2 border-gray-200 text-left' type="date"/>
                     </div>
-                </div>
+                </div>    
 
-                <div>
-                    <div>Search</div>
-                </div>
+            </div>
 
+            <div className='flex justify-center items-center text-md'>
+                <div className='text-white bg-gray-500 font-bold text-center px-[2vw] py-[1vh] border-2 border-gray-200 rounded-2xl'>Search</div>
             </div>
 
 
         </div>
+
     </div>
   )
 }
