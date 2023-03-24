@@ -13,8 +13,32 @@ const VehicleModels = () => {
             </div>
 
             <div>
+                <div>
+                    <div>Audi A1 S-Line</div>
+                    <div>VW Golf 6</div>
+                    <div>Toyota Camry</div>
+                    <div>BMW 320 ModernLine</div>
+                    <div>Mercedes-Benz GLK</div>
+                    <div>VW Passat CC</div>
+                </div>
 
+                <div>
+                    <img src='' alt=''/>
+                </div>
+
+                <div>
+                    <div>"" rent per day</div>
+                    <div>Model ""</div>
+                    <div>Mark</div>
+                    <div>Year</div>
+                    <div>Doors</div>
+                    <div>AC</div>
+                    <div>Transmission</div>
+                    <div>Fuel</div>
+                    <div>RESERVE NOW</div>
+                </div>
             </div>
+
         </div>
     </div>
   )
