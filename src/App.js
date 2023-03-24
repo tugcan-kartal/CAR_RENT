@@ -1,6 +1,7 @@
 import BookCarView from "./features/BookCarView";
 import HeroSection from "./features/HeroSection";
 import Navbar from "./features/Navbar";
+import PlanTrip from "./features/PlanTrip";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <HeroSection />   
       </div>
       <BookCarView />
+      <PlanTrip />
     </div>
   );
 }
