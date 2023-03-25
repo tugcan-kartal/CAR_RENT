@@ -1,6 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react';
+import AudiPhoto from "../static/audi.jpg";
+import GolfPhoto from "../static/golf.jpg";
+import ToyotaPhoto from "../static/toyota.jpg";
+import BmwPhoto from "../static/bmw.jpg";
+import MercedesPhoto from "../static/mercedes.jpeg";
+import ToyotoPhoto from "../static/toyota.jpg";
+
 
 const VehicleModels = () => {
+
+    const [car,setCar]=useState("audi-car");
+
+    const [imageofcar,setImageOfCar]=useState("");
+
+    const [price,setPrice]=useState(45);
+    const [model,setModel]=useState("Audi");
+    const [mark,setMark]=useState("A1");
+    const [year,setYear]=useState("2012");
+    const [door,setDoors]=useState("4/5");
+    const [ac,setAc]=useState("Yes");
+    const [transmission,setTransmission]=useState("Manual");
+    const [fuel,setFuel]=useState("Gasoline");
+
 
   return (
     <div>
@@ -12,7 +33,7 @@ const VehicleModels = () => {
                 <div className="font-extralight text-lg">Choose from a variety of our amazing vehicles to rent for your next<br/> adventure or business trip</div>
             </div>
 
-            <div>
+            <div className='flex'>
                 <div>
                     <div>Audi A1 S-Line</div>
                     <div>VW Golf 6</div>
@@ -23,7 +44,7 @@ const VehicleModels = () => {
                 </div>
 
                 <div>
-                    <img src='' alt=''/>
+                    <img src={AudiPhoto} alt=''/>
                 </div>
 
                 <div>
