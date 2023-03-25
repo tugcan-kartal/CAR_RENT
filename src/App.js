@@ -1,4 +1,5 @@
 import BookCarView from "./features/BookCarView";
+import Footer from "./features/Footer";
 import HeroSection from "./features/HeroSection";
 import Navbar from "./features/Navbar";
 import PlanTrip from "./features/PlanTrip";
@@ -14,6 +15,7 @@ function App() {
       <BookCarView />
       <PlanTrip />
       <VehicleModels />
+      <Footer />
     </div>
   );
 }

@@ -91,7 +91,7 @@ const VehicleModels = () => {
 
   return (
     <div>
-        <div className='bg-gray-100 h-screen'>
+        <div className='bg-gray-100 px-[4vw] h-screen'>
 
             <div className='text-center'>
                 <div className='text-3xl font-semibold mb-[1vh]'>Vehicle Models</div>
@@ -99,8 +99,10 @@ const VehicleModels = () => {
                 <div className="font-extralight text-lg">Choose from a variety of our amazing vehicles to rent for your next<br/> adventure or business trip</div>
             </div>
 
-            <div className='flex'>
-                <div className='flex flex-col gap-y-[2vh]'>
+            <div className='flex gap-x-[10vw]'>
+
+
+                <div className='flex flex-col gap-y-[2vh] w-[20vw]'>
                     <div onClick={()=>setCar("audi-car")} className='bg-gray-200 h-[10vh] px-[3vw] py-[2vh] font-bold hover:bg-gray-600 transition duration-300 ease-in-out'>Audi A1 S-Line</div>
                     <div onClick={()=>setCar("golf-car")} className='bg-gray-200 h-[10vh] px-[3vw] py-[2vh] font-bold hover:bg-gray-600 transition duration-300 ease-in-out '>VW Golf 6</div>
                     <div onClick={()=>setCar("toyota-car")} className='bg-gray-200 h-[10vh] px-[3vw] py-[2vh] font-bold hover:bg-gray-600 transition duration-300 ease-in-out'>Toyota Camry</div>
@@ -110,20 +112,64 @@ const VehicleModels = () => {
                 </div>
 
                 <div>
-                    <img src={imageofcar} alt=''/>
+                    <img className='w-[40vw] mx-auto mt-[10vh]' src={imageofcar} alt='not found'/>
                 </div>
 
-                <div>
-                    <div>{price} rent per day</div>
-                    <div>Model {model}</div>
-                    <div>Mark {mark}</div>
-                    <div>Year {year}</div>
-                    <div>Doors {door}</div>
-                    <div>AC {ac}</div>
-                    <div>Transmission {transmission}</div>
-                    <div>Fuel {fuel}</div>
-                    <div>RESERVE NOW</div>
+                <div className='w-[20vw] h-[44vh] mt-[8vh] border-2 border-b-0 border-black text-md'>
+
+
+                    <div className='flex justify-center items-center gap-x-[1vw] bg-gray-300 border-b-2 border-black pb-[2vh]'>
+                        <div className='text-xl font-bold'>${price}</div>
+                        <div>/</div>
+                        <div className='text-lg'>rent per day</div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-x-[1vw] border-b-2 border-black pb-[2vh]'>
+                        <div>Model</div>
+                        <div>|</div>
+                        <div>{model}</div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-x-[1vw] border-b-2 border-black pb-[2vh]'>
+                        <div>Mark</div>
+                        <div>|</div>
+                        <div>{mark}</div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-x-[1vw] border-b-2 border-black pb-[2vh]'>
+                        <div>Year</div>
+                        <div>|</div>
+                        <div>{year}</div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-x-[1vw] border-b-2 border-black pb-[2vh]'>
+                        <div>Doors</div>
+                        <div>|</div>
+                        <div>{door}</div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-x-[1vw] border-b-2 border-black pb-[2vh]'>
+                        <div>AC</div>
+                        <div>|</div>
+                        <div>{ac}</div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-x-[1vw] border-b-2 border-black pb-[2vh]'>
+                        <div>Transmission</div>
+                        <div>|</div>
+                        <div>{transmission}</div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-x-[1vw] border-b-2 border-black pb-[2vh]'>
+                        <div>Fuel</div>
+                        <div>|</div>
+                        <div>{fuel}</div>
+                    </div>
+
+
                 </div>
+
+
             </div>
 
         </div>
