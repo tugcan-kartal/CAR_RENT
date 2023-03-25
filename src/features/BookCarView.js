@@ -6,9 +6,9 @@ import {MdDateRange} from "react-icons/md";
 
 const BookCarView = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-gray-50 pt-[10vh] pb-[10vh]">
+    <div className="flex flex-col justify-center items-center bg-gray-100 pt-[10vh] pb-[10vh]">
 
-        <div className="bg-[url('./static/wallpaper2.jpg')] bg-top rounded-2xl px-[5vw] py-[3vh]">
+        <div className="bg-white rounded-2xl px-[5vw] py-[3vh]">
 
             <div className='text-2xl font-bold mb-[2vh]'>Book a car</div>
 
@@ -34,12 +34,11 @@ const BookCarView = () => {
                     <div>
                         <select className='text-gray-500 px-[2vw] py-[1vh] border-2 border-gray-200 text-left'>
                             <option>Select pick up location</option>
-                            <option>Audi A1 S-Line</option>
-                            <option>VW Golf 6</option>
-                            <option>Toyota Camry</option>
-                            <option>BMW 320 ModernLine</option>
-                            <option>Mercedes-Benz GLK</option>
-                            <option>VW Passat CC</option>
+                            <option>Belgrade</option>
+                            <option>Novi Sad</option>
+                            <option>Nis</option>
+                            <option>Kragujevac</option>
+                            <option>Subotica</option>
                         </select>
                     </div>
                 </div>
@@ -48,13 +47,12 @@ const BookCarView = () => {
                     <div className='font-semibold flex items-center gap-x-[1vw] mb-[1vh]'><GrLocationPin /> Drop-of</div>
                     <div>
                         <select className='text-gray-500 px-[2vw] py-[1vh] border-2 border-gray-200 text-left'>
-                            <option>Select drop off location</option>
-                            <option>Audi A1 S-Line</option>
-                            <option>VW Golf 6</option>
-                            <option>Toyota Camry</option>
-                            <option>BMW 320 ModernLine</option>
-                            <option>Mercedes-Benz GLK</option>
-                            <option>VW Passat CC</option>
+                        <option>Select pick up location</option>
+                            <option>Belgrade</option>
+                            <option>Novi Sad</option>
+                            <option>Nis</option>
+                            <option>Kragujevac</option>
+                            <option>Subotica</option>
                         </select>
                     </div>
                 </div>
