@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c627e096.css",
+    "main.js": "/static/js/main.99417e74.js",
+    "static/js/787.99b05aad.chunk.js": "/static/js/787.99b05aad.chunk.js",
+    "static/media/wallpaper.jpg": "/static/media/wallpaper.833b1243acc6edb3d8e1.jpg",
+    "static/media/audi.jpg": "/static/media/audi.3afa6408f30234689bee.jpg",
+    "static/media/passat.png": "/static/media/passat.1cea1faf44ed6ea5b226.png",
+    "static/media/car.png": "/static/media/car.6235b9013f1fb2f4c529.png",
+    "static/media/golf.jpg": "/static/media/golf.ce73c063adf2f93b0c81.jpg",
+    "static/media/bmw.jpg": "/static/media/bmw.deed5f2213b21ac8b711.jpg",
+    "static/media/mercedes.jpeg": "/static/media/mercedes.a0a2a84d5dbb01510b86.jpeg",
+    "static/media/toyota.jpg": "/static/media/toyota.78b8d71a999ef14c3b98.jpg",
+    "index.html": "/index.html",
+    "main.c627e096.css.map": "/static/css/main.c627e096.css.map",
+    "main.99417e74.js.map": "/static/js/main.99417e74.js.map",
+    "787.99b05aad.chunk.js.map": "/static/js/787.99b05aad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c627e096.css",
+    "static/js/main.99417e74.js"
+  ]
+}

@@ -8,7 +8,7 @@ const HeroSection = () => {
     
         <div className='w-[60vw]'>
 
-            <div className='text-left'>
+            <div className='text-left ml-[3vw]'>
                 <div className='text-xl font-bold mb-[2vh]'>Plan your trip now</div>
                 <div className='text-4xl font-extrabold mb-[4vh]'>Save big with our car rental</div>
                 <div className='text-gray-700 mb-[4vh] text-lg'>
@@ -18,7 +18,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className='flex gap-x-[2vw] text-xl'>
+            <div className='flex gap-x-[2vw] text-xl ml-[3vw]'>
                 <div className='flex items-center gap-x-[0.5vw] text-black hover:text-gray-400 cursor-pointer font-semibold'>Book Ride <AiOutlineCheckCircle /></div>
                 <div className='flex items-center gap-x-[0.5vw] text-black hover:text-gray-400 cursor-pointer font-semibold'>Learn More <AiOutlineRight /></div>
             </div>

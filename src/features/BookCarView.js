@@ -3,6 +3,8 @@ import {BsCarFrontFill} from "react-icons/bs";
 import {HiLocationMarker} from "react-icons/hi";
 import {GrLocationPin} from "react-icons/gr";
 import {MdDateRange} from "react-icons/md";
+import toast from 'react-hot-toast';
+
 
 const BookCarView = () => {
   return (
@@ -78,7 +80,7 @@ const BookCarView = () => {
             </div>
 
             <div className='flex justify-center items-center text-md'>
-                <div className='text-white bg-gray-500 font-bold text-center px-[2vw] py-[1vh] border-2 border-gray-200 rounded-2xl'>Search</div>
+                <div onClick={()=>toast.error("cars are not available yet")} className='cursor-pointer text-white bg-gray-500 font-bold text-center px-[2vw] py-[1vh] border-2 border-gray-200 rounded-2xl'>Search</div>
             </div>
 
 

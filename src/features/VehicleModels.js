@@ -99,7 +99,7 @@ const VehicleModels = () => {
                 <div className="font-extralight text-lg">Choose from a variety of our amazing vehicles to rent for your next<br/> adventure or business trip</div>
             </div>
 
-            <div className='flex gap-x-[10vw]'>
+            <div className='flex md:flex-row flex-col justify-center items-center  gap-x-[10vw]'>
 
 
                 <div className='flex flex-col gap-y-[2vh] w-[20vw]'>
